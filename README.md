@@ -44,7 +44,7 @@ POST /api/v1/bookings/``:hallname (hall1 / hall2 / hall3)``
 
 
 ### Create & Fetch  User
-**
+***
 GET /api/v1/user/`:email`
 | Parameter    | Type     | Description                           |
 | :----------- | :------- | :------------------------------------ |
