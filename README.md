@@ -70,7 +70,7 @@ PUT /api/v1/update/:hallName/:uniqueId
 
 ### Delete an existing booking
 ***
-PUT /api/v1/update/:hallName/:uniqueId
+DELETE /api/v1/update/:hallName/:uniqueId
 
 | Parameter    | Type     | Description                           |
 | :----------- | :------- | :------------------------------------ |
