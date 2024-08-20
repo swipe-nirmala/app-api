@@ -60,7 +60,7 @@ POST /api/v1/user/
 
 ### Update an existing booking
 ***
-PUT /api/v1/update/:hallName/:uniqueId
+PUT /api/v1/update/`:hallName/:uniqueId`
 
 | Parameter    | Type     | Description                           |
 | :----------- | :------- | :------------------------------------ |
