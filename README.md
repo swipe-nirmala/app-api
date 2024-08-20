@@ -6,7 +6,7 @@ Bookings and User API
 
 ## Endpoints 
 ### Get all bookings
-
+***
 GET /api/v1/bookings/``:hallname``
 
 | Parameter | Type     | Description                |
@@ -14,7 +14,7 @@ GET /api/v1/bookings/``:hallname``
 | ```hall1 / hall2 / hall3```      | string     | Fetches all bookings in specifed halls      |
 
 ### Get bookings by user email
-
+***
 GET /api/v1/bookings/``:email``
 
 | Parameter | Type     | Description                       |
@@ -24,7 +24,7 @@ GET /api/v1/bookings/``:email``
 
 
 ### Create a new booking
-
+***
 POST /api/v1/bookings/``:hallname (hall1 / hall2 / hall3)``
 
 | Parameter    | Type     | Description                           |
@@ -44,7 +44,7 @@ POST /api/v1/bookings/``:hallname (hall1 / hall2 / hall3)``
 
 
 ### Create & Fetch  User
-
+**
 GET /api/v1/user/`:email`
 | Parameter    | Type     | Description                           |
 | :----------- | :------- | :------------------------------------ |
@@ -59,7 +59,7 @@ POST /api/v1/user/
 | userRole     | string   | **Required**. `teacher / admin`      |
 
 ### Update an existing booking
-
+***
 PUT /api/v1/update/:hallName/:uniqueId
 
 | Parameter    | Type     | Description                           |
@@ -69,7 +69,7 @@ PUT /api/v1/update/:hallName/:uniqueId
 
 
 ### Delete an existing booking
-
+***
 PUT /api/v1/update/:hallName/:uniqueId
 
 | Parameter    | Type     | Description                           |
